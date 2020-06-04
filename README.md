@@ -20,7 +20,7 @@
 
 | Function| Function outline | Other |
 | ------------- | ------------- | ------------- |
-| Crowd Front | Stack Management |  |
+| CloudFront | Stack Management |  |
 | Cognito | User Management | With Amprify |
 | Lambda | Execute Function |  |
 | API Gateway | API |  |
@@ -63,7 +63,7 @@
         * 本番リリース
         * releaseブランチ削除
 
-### git commond
+### git command
 * git clone
     * master branch
     ```
@@ -111,19 +111,19 @@
     git branch -d feature/XXXXXX
     ```
 
-    * develop => releace
+    * develop => release
     ```
-    git checkout releace 
+    git checkout release 
     git merge develop
-    git push origin releace
+    git push origin release
     ```
 
-    * releace => master
+    * release => master
     ```
     git checkout master 
-    git merge releace
+    git merge release
     git push origin master
-    git branch -d releace
+    git branch -d release
     ```
 
 
@@ -134,10 +134,10 @@
     git push origin develop
     ```
 
-    * hotfix => releace
+    * hotfix => release
     ```
-    git checkout releace 
+    git checkout release 
     git merge hotfix
-    git push origin releace
+    git push origin release
     git branch -d hotfix
     ```
