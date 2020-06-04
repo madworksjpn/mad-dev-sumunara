@@ -21,7 +21,7 @@
 | Function| Function outline | Other |
 | ------------- | ------------- | ------------- |
 | CloudFront | Stack Management |  |
-| Cognito | User Management | With Amprify |
+| Cognito | User Management | With Amplify |
 | Lambda | Execute Function |  |
 | API Gateway | API |  |
 
