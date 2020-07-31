@@ -3,18 +3,11 @@ service:
 # app and org for use with dashboard.serverless.com
 #app: your-app-name
 #org: your-org-name
-custom:
-  webpack:
-    webpackConfig: ./webpack.config.js
-    includeModules: true
-# Add the serverless-webpack plugin
-plugins:
-  - serverless-webpack
 
 provider:
   name: aws
   region: ap-northeast-1
-  runtime: nodejs12.x
+  runtime:  python3.8
   memorySize: 128
   logRetentionInDays: 1
   apiGateway:
@@ -26,4 +19,5 @@ provider:
   versionFunctions: false
 
 functions:
-  hello:
+  lambda_handler:
+    handler: lambda_function.lambda_handler
