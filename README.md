@@ -111,7 +111,7 @@
     git branch -d feature/XXXXXX
     ```
 
-    * develop => releace
+    * develop => release
     ```
     git checkout release 
     git merge develop
